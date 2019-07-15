@@ -1,5 +1,5 @@
 var express = require("express");
-var handlebars = require("express-handlebars")
+var exphbs = require("express-handlebars")
 var mongoose = require("mongoose");
 
 var PORT = process.env.PORT || 3000;
@@ -13,7 +13,7 @@ app.use(express.json());
 // Make public a static folder
 app.use(express.static("public"));
 
-app.engine("handlebars", handlebars({ defaultLayout: "main" }));
+app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
 var routes = require("./controller/controller.js");
