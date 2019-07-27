@@ -1,0 +1,96 @@
+.mainNav{
+    background-color:#2096ea;
+ 
+}
+.mainNav .navbarStyle{
+    height:5em;
+}
+
+.indiNote{
+    display:flex;
+    justify-content: space-between;
+    padding:.5em;
+}
+
+
+.container ul{
+    display:flex;
+    flex-direction: row;
+    align-self:center;
+}
+.jumbotron{
+    background: linear-gradient(#a2a2a2 0%, #4a464694 90%), url(../img/mongoapp-background.jpeg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-blend-mode: darken;
+   opacity:0.9;
+    height:30em;
+    z-index:-1;
+}
+
+.jumbotron{
+    display:flex;
+    justify-content: center;
+}
+.centerTitle h1,p{
+    display:block;
+    font-weight:bold !important;
+    color:white;
+    z-index:10;
+    font-size:7em;
+    opacity:1;
+}
+
+.centerTitle p{
+    text-align:center;
+}
+.articleList{
+    /* border:1px solid black; */
+    text-overflow: hidden;
+    overflow:hidden;
+    margin-bottom:1em;
+    -webkit-box-shadow: 0px 7px 36px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 7px 36px -4px rgba(0,0,0,0.75);
+box-shadow: 0px 7px 36px -4px rgba(0,0,0,0.75);
+}
+
+.title,.two{
+    width:60%;
+    overflow:hidden;
+    padding:2em;
+}
+.title span{
+    color:white;
+}
+.btns{
+    display:flex;
+    justify-content: space-between;
+    width:20em;
+    margin-right:1em;
+}
+.btns button{
+    height:3em;
+    display:flex;
+    align-self:center;
+}
+.btns1{
+    display:flex;
+    flex-direction:column;
+   justify-content:center;
+    margin-right:1em;
+}
+.saveBtn{
+    height:3em;
+}
+.one{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    border-bottom:1px solid black;
+    background-color:#2096ea;
+}
+
+
+.currentNotes{
+    padding:1em;
+}
